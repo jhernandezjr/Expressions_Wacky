@@ -1,9 +1,13 @@
-var length = prompt("To determine the volume of a cereal box enter the length")
-var width = prompt("Enter width of the cereal box:");("Please enter the width")
-var height = prompt("Enter height of the cereal box:");("Please enter the depth")
-var volume = length * width * height;
+var highschool = prompt("How many years of high school did you attend for")
+var college = prompt("How many years of college did you attend for")
 
-var result = "The volume of the cereal box is " + volume + " volume";
+var result = "Total years of school " + highschool + " college";
 alert(result);
 
-console.log(dimensions);
+
+if (result > 8){
+	document.write("Congratulations you are our new employee")
+	}
+	
+if (result < 8){document.write("Go back to school")
+}
