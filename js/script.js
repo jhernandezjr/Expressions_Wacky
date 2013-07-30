@@ -1,13 +1,9 @@
-var highschool = prompt("How many years of high school did you attend for")
-var college = prompt("How many years of college did you attend for")
+console.log('-------Loops---------');
 
-var result = "Total years of school " + highschool + " college";
-alert(result);
+var b = 10;
 
-
-if (result > 8){
-	document.write("Congratulations you are our new employee")
-	}
-	
-if (result < 8){document.write("Go back to school")
+while (b > 0){
+	console.log(b + ' kegs on the wall');
+	b--;
 }
+
